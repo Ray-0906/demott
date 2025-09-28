@@ -1,0 +1,22 @@
+name:CI_pipleine
+on:
+  push:
+    branches: ["main"]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ChecKout repo
+        uses: actions/checkout@v3
+
+      - name: Setup nodeJs
+        uses:actions/setup-node@v3
+        with:
+          node-version: "18" 
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test      
+

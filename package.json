@@ -1,0 +1,22 @@
+{
+  "name": "demott",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node index.js",
+    "run": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ray-0906/demott.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ray-0906/demott/issues"
+  },
+  "homepage": "https://github.com/Ray-0906/demott#readme",
+  "description": ""
+}
