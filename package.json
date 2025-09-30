@@ -2,10 +2,12 @@
   "name": "demott",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "node test.js",
     "start": "node index.js",
-    "run": "node index.js"
+    "run": "node index.js",
+    "dev": "node --watch index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
     "url": "https://github.com/Ray-0906/demott/issues"
   },
   "homepage": "https://github.com/Ray-0906/demott#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
