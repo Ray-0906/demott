@@ -406,18 +406,18 @@ flowchart TD
         C --> D[Docker Hub 🐳]
     end
 
-    subgraph K8s["☸️ Kubernetes (Minikube Cluster)"]
+    subgraph K8s["☸️ Kubernetes - Minikube Cluster"]
         D --> E[Deployment]
         E --> F[ReplicaSet]
-        F --> G[Pods (Containers)]
-        G --> H[Service (LoadBalancer)]
+        F --> G[Pods - Containers]
+        G --> H[Service - LoadBalancer]
     end
 
     H --> I[User Access via Minikube URL]
 
     subgraph Monitoring["📊 Monitoring"]
-        G --> J[Prometheus <br> Scrapes /metrics]
-        J --> K[Grafana <br> Dashboards]
+        G --> J["Prometheus<br/>Scrapes /metrics"]
+        J --> K["Grafana<br/>Dashboards"]
         K --> L[Visualize Metrics]
     end
 ```
