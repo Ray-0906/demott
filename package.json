@@ -22,6 +22,7 @@
   "homepage": "https://github.com/Ray-0906/demott#readme",
   "description": "",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "prom-client": "^15.1.3"
   }
 }
